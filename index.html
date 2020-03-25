@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<style>
+  body {
+    background-color: rgb(22, 22, 22);
+
+    font-family: 'Share Tech Mono', monospace;
+    color: #f1f1f1;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    height: 410px;
+    background-color: #9ac9aa;
+    border: 1px solid rgb(0, 0, 0);
+    /* position: fixed; Make it stick, even on scroll */
+    overflow: auto;
+    /* Enable scrolling if the sidenav has too much content */
+    left: 0;
+  }
+
+  #limenu a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    font-size: 20px;
+    position: sticky;
+    
+  }
+
+  /* Change the link color on hover */
+  #limenu a:hover {
+    background-color: rgb(43, 95, 79);
+    color: white;
+  }
+li   {
+  list-style-type: none;
+}
+
+li a {
+  list-style-type: none;
+  color:#f1f1f1;
+}
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+
+  .item1 {
+    grid-area: header;
+    color: #f1f1f1;
+    margin-top: 120px;
+    width: 400px;
+  }
+
+  .item2 {
+    grid-area: main;
+    margin-left: 200px;
+  }
+
+  .item3 {
+    grid-area: sidebar;
+  }
+
+  .item4 {
+    grid-area: footer;
+    background-image: url(images.png);
+
+
+  }
+
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "sidebar header  header"
+      "main main main"
+      "footer footer footer";
+    grid-gap: 10px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #img1 {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+  }
+
+  .item4>h5 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 8em
+  }
+</style>
+
+
+
+<body>
+  <div class="container">
+
+    <nav id="navbar">
+      <header></header>
+    <ul class="item3">
+      <li id="limenu"><a class="nav-link" href="#IMPORTANT_ANNOUNCE">IMPORTANT ANNOUNCE</a></li>
+      <li id="limenu"><a class="nav-link" href="#MODELS_WORTH_SEEING_THIS_YEAR">MODELS WORTH SEEING THIS YEAR</a></li>
+      <li id="limenu"><a class="nav-link" href="#LOGS">LOGS</a></li>
+      <li id="limenu"><a class="nav-link" href="#NEWS_IN_TRANSHUMANISM">NEWS IN TRANSHUMANISM</a></li>
+      <li id="limenu"><a class="nav-link" href="#LOCATIONS_THIS_YEAR">LOCATIONS THIS YEAR</a></li>
+      <li id="limenu"><a class="nav-link" href="#BIOGENETICS_BY_ASTRAL">BIOGENETICS BY ASTRAL</a></li>
+    </ul>
+    </nav>
+
+
+    <div class="item1">
+      <h1>UFO ASSEMBLING</h1>
+    </div>
+
+
+    <main class="item2" id="main-doc">
+      <section class="main-section" id="IMPORTANT_ANNOUNCE">
+        <header><h3>IMPORTANT ANNOUNCE</h3></header>
+        <p>We have to inform our users that models XX2050 and Z20 will be delayed due to a planned pandemia purge
+          (COD-19) </p>
+          <li class="normalli"><a href="">Click here for more</a></li>
+
+
+          <br><br><br>
+
+          
+      <section class="main-section" id="LOGS">
+        <header><h3>LOGS</h3></header>
+        <div class="logs">
+          <h5>In the former years our services has been great and we shal thank you. Please read our Skjual statement on </h5><p>
+            it: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt itaque saepe, unde adipisci nisi
+            laboriosam cumque? Error hic labore voluptatibus beatae minima fuga pariatur suscipit sapiente laudantium!
+            Asperiores, in temporibus?
+            Facere tenetur unde aliquid mollitia quo maiores omnis, corrupti, distinctio vitae quasi a vero voluptatem
+            ratione quae nulla repellat dolore ea. Sequi, eos? Eaque veritatis tenetur alias consectetur perspiciatis
+            quod?
+            Repellendus deserunt, nesciunt provident inventore maxime minus ullam ducimus, omnis sapiente vel possimus
+            dicta, dignissimos aut rerum? Neque dicta eum maxime quis vitae non asperiores, modi cumque iste nemo eius?
+          </p>
+        </div>
+        <li class="normalli"><a href="">Click here for more</a></li>
+
+      </section>
+
+      <br><br><br>
+
+      <section class="main-section" id="MODELS_WORTH_SEEING_THIS_YEAR">
+        <header> <h3>MODELS WORTH SEEING THIS YEAR</h3></header>
+        <br><br>
+        <div class="imgs" id="blueprints">
+          <p>Classical Haraswqrt (UFO 2893457BITs) </p>
+          <img id="img1" src="descarga.jpg" alt="">
+          <code>turbografx17u included</code>
+          <br>
+          <p>Proyect X2035 (details macklemore)</p>
+          <img id="img1" src="Fig-2-Cutaway-of-Aircraft-Structure-e1348157629308.jpg" alt="">
+          <code>turbografx17u included</code>
+          <br>
+          <p>Order 1054</p>
+          <img src="descarga2.jpg" alt="">
+          <br>
+          <p>Basic output(2000S)</p>
+          <img src="descarga3.jpg" alt="">
+          <code>turbografx17u not included, CAN  BE. </code>
+        </div>
+        <li class="normalli"><a href="">Click here for more</a></li>
+
+      </section>
+
+      <br><br><br>
+
+      <section class="main-section" id="NEWS_IN_TRANSHUMANISM">
+        <header> <h3>NEWS IN TRANSHUMANISM</h3></header>
+        <h5>New Star in the Way</h5>
+        <p>We have confirmed a New Star. It is located in Madushka Plat</p>
+        <code>orbit 7789544.787645.9990056</code>
+        <li class="normalli"><a href="">Click here for more</a></li>
+
+      </section>
+
+      <br><br><br>
+
+      <section class="main-section" id="LOCATIONS_THIS_YEAR">
+        <header> <h3>LOCATIONS THIS YEAR</h3> </header>
+        <h5>Our G.E.O.</h5>
+        <p>We will inform you of our new location (details macklemore)</p>
+        <img id="img1" src="descarga4.jpg" alt="">
+        <code>New facilities, water view.</code>
+        <br>
+        <img id="img1" src="descarga5.jpg" alt="">
+        <li class="normalli"><a href="">Click here for more</a></li>
+
+
+      </section>
+
+      <br><br><br>
+
+      <section class="main-section" id="BIOGENETICS_BY_ASTRAL">      
+        <header> <h3>BIOGENETICS by ASTRAL</h3> </header>
+        <h5>The lastes in ADN evolve: desrroxibit bacteria from Astral Bound.</h5>
+        <code>Find more.</code>
+        <li class="normalli"><a href="">Click here for more</a></li>
+
+      </section>
+      </section>
+
+    </main>
+
+
+
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <div class="item4 mt-5">
+    <h5 class="">We shall return to the stars.</h5>
+  </div>
+
+
+
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
